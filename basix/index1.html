@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>
+            javascript
+        </title>
+        <script>
+            // this is how to output on a webpage
+            document.write("hello world  \n");  //need to end with a semicolon
+            // document.write("this should work");
+            var a = 10; //variable we dont define a type javascript is a dynamically typed
+            // we can concatenate strings
+            var words = "asd lsd";
+            var moreWords = "sdf lsdfj";
+            var moreMoreWords = words + moreWords;
+            document.write("is this working");
+            document.write("this is concatenation : " +moreMoreWords);
+            //we can do normal math
+            //strings are stored as objects
+            var len = moreMoreWords.length;
+            document.write("this is the lenght"+len);
+            //we have methods like substrings
+            var result = moreMoreWords.substring(2,5);
+            document.write("from the substrings :" + result);
+            //we have arrays
+            var arr1  = new Array(7);
+            a[0] = "cat";
+            a[1] = "dog";
+            a[2] = 9;
+            //or we can
+            var arr2 = new Array("hi","this","is","also",1,"way");
+            //or we can
+            var arr3 = ["hi","this","is","also",1,"way"];
+            //we also have functions
+            function sayHello(extra){
+                document.write("Hellooooooooo"+extra)
+            }
+            sayHello("<br>");
+            // now we have conditional statements
+            var checknum = 7;
+            if(checknum>6){
+                // alert gives a dialogue box in the browser
+                alert(checknum)
+            }
+            else{
+                alert("number is smol")
+            }
+
+            // iterative 
+            for(i = 0;i<10;i++)
+            {
+                document.write("this is :" + i + "<br>");
+            }
+
+        </script>
+    </head>
+    <body>
+        
+    </body>
+</html>
